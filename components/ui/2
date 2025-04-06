@@ -1,0 +1,10 @@
+// components/ui/Input.jsx
+export const Input = ({ type, value, onChange, placeholder, className }) => (
+  <input
+    type={type}
+    value={value}
+    onChange={onChange}
+    placeholder={placeholder}
+    className={`p-2 border rounded-lg ${className}`}
+  />
+);
